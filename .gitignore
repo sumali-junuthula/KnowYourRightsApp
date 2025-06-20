@@ -2,9 +2,13 @@
 
 # dependencies
 node_modules/
+node_modules
 
 # Expo
 .expo/
+.expo
+build
+.expo-shared
 dist/
 web-build/
 expo-env.d.ts
@@ -17,6 +21,8 @@ expo-env.d.ts
 *.p12
 *.key
 *.mobileprovision
+*.log
+*.DS_Store
 
 # Metro
 .metro-health-check*
@@ -32,6 +38,7 @@ yarn-error.*
 
 # local env files
 .env*.local
+.env
 
 # typescript
 *.tsbuildinfo
